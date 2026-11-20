@@ -1,0 +1,237 @@
+
+/* ==================================
+   JALEN HURTS DATA VISUALIZATION
+   Created by Kai Mathis
+   ================================== */
+
+/* GENERAL STYLING */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    color: #222222;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+    background-color: #004c54;
+    padding: 18px 0;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.navbar-brand:hover {
+    color: #a5acaf !important;
+}
+
+/* HERO SECTION */
+
+.hero {
+    background-color: #004c54;
+    color: #ffffff;
+    text-align: center;
+    padding: 90px 20px;
+    border-bottom: 6px solid #a5acaf;
+}
+
+.hero h1 {
+    font-size: 52px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.hero p {
+    font-size: 19px;
+    max-width: 750px;
+    margin: 0 auto 15px;
+    line-height: 1.8;
+}
+
+/* MAIN CONTENT */
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.section-title {
+    font-size: 30px;
+    color: #004c54;
+    font-weight: 800;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid #a5acaf;
+}
+
+main p {
+    color: #333333;
+}
+
+/* DATA VISUALIZATION SECTIONS */
+
+.graphic-section {
+    background-color: #ffffff;
+    padding: 40px;
+    margin-bottom: 45px;
+    border-radius: 12px;
+    border-left: 6px solid #004c54;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+}
+
+.graphic-section h2 {
+    font-size: 28px;
+    color: #004c54;
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+
+/* CHART DESCRIPTIONS */
+
+.chatter {
+    font-size: 17px;
+    color: #555555;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+/* DATAWRAPPER GRAPHICS */
+
+.graphic-section iframe {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    margin: 20px auto;
+    background-color: #ffffff;
+}
+
+/* SOURCES */
+
+.source {
+    font-size: 13px;
+    color: #666666;
+    margin-top: 20px;
+    padding-top: 12px;
+    border-top: 1px solid #dddddd;
+}
+
+.source a {
+    color: #004c54;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.source a:hover {
+    color: #007b83;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #111111;
+    color: #ffffff;
+    text-align: center;
+    padding: 35px 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+/* RESPONSIVE DESIGN - TABLETS */
+
+@media (max-width: 992px) {
+
+    .hero {
+        padding: 70px 20px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .graphic-section {
+        padding: 30px;
+    }
+
+    .section-title {
+        font-size: 26px;
+    }
+}
+
+/* RESPONSIVE DESIGN - PHONES */
+
+@media (max-width: 768px) {
+
+    .navbar-brand {
+        font-size: 16px;
+    }
+
+    .hero {
+        padding: 55px 15px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+        letter-spacing: 1px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    main {
+        padding: 30px 15px;
+    }
+
+    .graphic-section {
+        padding: 22px;
+        margin-bottom: 30px;
+        border-left-width: 4px;
+    }
+
+    .graphic-section h2 {
+        font-size: 23px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .chatter {
+        font-size: 15px;
+    }
+
+    .graphic-section iframe {
+        width: 100%;
+    }
+
+    footer {
+        padding: 25px 15px;
+    }
+}
